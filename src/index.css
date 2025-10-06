@@ -24,6 +24,7 @@ body {
 .header nav a {
   color: white; text-decoration: none; font-weight: 500; opacity: 0.95;
 }
+.header h2 a { color: inherit; text-decoration: none; }
 .login-btn {
   background: #00b3b3;
   color: white;
