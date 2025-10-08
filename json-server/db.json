@@ -1,0 +1,57 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "nome": "João Silva",
+      "email": "joao.silva@example.com",
+      "senha": "senha123",
+      "role": "aluno"
+    },
+    {
+      "id": 2,
+      "nome": "Maria Oliveira",
+      "email": "maria.oliveira@example.com",
+      "senha": "minhasenha",
+      "role": "instrutor"
+    },
+    {
+      "id": 3,
+      "nome": "Carlos Souza",
+      "email": "carlos.souza@example.com",
+      "senha": "abc12345",
+      "role": "aluno"
+    },
+    {
+      "id": "7e26",
+      "nome": "Guilherme Israel dos Santos",
+      "sobrenome": " Israel dos Santos",
+      "email": "guilhermeisrael03@gmail.com",
+      "emailConfirm": "guilhermeisrael03@gmail.com",
+      "senha": "gui123",
+      "senhaConfirm": "gui123"
+    }
+  ],
+  "courses": [
+    {
+      "id": 1,
+      "title": "Introdução a JavaScript",
+      "description": "Conceitos básicos de JavaScript, variáveis, funções e DOM.",
+      "level": "Iniciante",
+      "price": 0
+    },
+    {
+      "id": 2,
+      "title": "React do Zero",
+      "description": "Fundamentos do React: componentes, estado, props e hooks.",
+      "level": "Intermediário",
+      "price": 49.9
+    },
+    {
+      "id": 3,
+      "title": "Node.js e APIs REST",
+      "description": "Construção de APIs REST com Express e manipulação de banco de dados.",
+      "level": "Intermediário",
+      "price": 79.9
+    }
+  ]
+}
