@@ -1,9 +1,11 @@
+import { Link } from 'react-router-dom';
+
 export default function Categories() {
   const categorias = [
-    { nome: "Linguagens de programação", icon: "💻" },
-    { nome: "Banco de dados", icon: "🗄️" },
-    { nome: "Desenvolvimento web", icon: "⚙️" },
-    { nome: "Informática", icon: "ℹ️" },
+    { nome: "Linguagens de programação", icon: "💻", to: "/linguagens-de-programacao" },
+    { nome: "Banco de dados", icon: "🗄️", to: "/banco-de-dados" },
+    { nome: "Desenvolvimento web", icon: "⚙️", to: "/programacao-web" },
+    { nome: "Informática", icon: "ℹ️", to: "/informatica" },
   ];
 
   return (
@@ -11,10 +13,17 @@ export default function Categories() {
       <h2>Categorias de Cursos</h2>
       <div className="category-list">
         {categorias.map((c, i) => (
-          <div key={i} className="category-card">
-            <span className="icon">{c.icon}</span>
-            <p>{c.nome}</p>
-          </div>
+          c.to ? (
+            <Link key={i} to={c.to} className="category-card">
+              <span className="icon">{c.icon}</span>
+              <p>{c.nome}</p>
+            </Link>
+          ) : (
+            <div key={i} className="category-card">
+              <span className="icon">{c.icon}</span>
+              <p>{c.nome}</p>
+            </div>
+          )
         ))}
       </div>
     </section>
