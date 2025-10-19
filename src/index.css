@@ -206,10 +206,25 @@ body {
   text-align: center;
   padding-bottom: 20px;
 }
-
-.course-card:hover {
+/* Box HTML */
+.course-card.html:hover {
   transform: translateY(-6px);
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 8px 20px #e34c26;
+}
+/* Box CSS */
+.course-card.css:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 20px #2965f1;
+}
+/* Box JAVASCRIPT */
+.course-card.javascript:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 20px #f7df1e;
+}
+/* Box REACT */
+.course-card.react:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 20px #61dafb;
 }
 
 /* Imagem do curso */
@@ -242,7 +257,7 @@ body {
   border-top: 4px solid #2965f1;
 }
 
-.course-card.js {
+.course-card.javascript {
   border-top: 4px solid #f7df1e;
 }
 
@@ -301,6 +316,7 @@ body {
 .course-card.mongodb {
   border-top: 4px solid #15ff001e;
 }
+
 
 /* Responsividade */
 @media (max-width: 600px) {

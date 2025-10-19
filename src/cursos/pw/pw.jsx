@@ -5,7 +5,7 @@ export default function ProgramacaoWeb() {
   const courses = [
     { title: "HTML5", level: "Avançado", duration: "60h", img: "/cursos/html5.png", color: "html" },
     { title: "CSS3", level: "Básico", duration: "50h", img: "/cursos/css3.png", color: "css" },
-    { title: "JavaScript", level: "Avançado", duration: "90h", img: "/cursos/javascript.png", color: "js" },
+    { title: "JavaScript", level: "Avançado", duration: "90h", img: "/cursos/javascript.png", color: "javascript" },
     { title: "React", level: "Básico", duration: "40h", img: "/cursos/react.png", color: "react" },
   ];
 
